@@ -29,3 +29,10 @@ This architecture is designed to bridge the gap between technical implementation
 
 ## 💻 Proof of Concept (PoC) Code
 See `setup_db.py` for a localized PoC demonstrating a DuckDB warehouse-centric hub, establishing a foundation for scalable cloud deployment (Snowflake/Databricks/AWS).
+
+
+## 🧪 Databricks & Distributed Compute Proof of Concept
+![Databricks PySpark PoC](databricks_pyspark_poc.png)
+
+**Architectural Trade-off Decision:** 
+While the initial warehouse prototype utilized single-node processing (DuckDB/Pandas) for cost-efficiency, this environment was extended to a distributed compute engine (Databricks/PySpark). This PoC demonstrates the ability to architect for scale, proving that the pipeline can handle petabyte-scale data volumes as the enterprise AI agents generate higher query loads.
